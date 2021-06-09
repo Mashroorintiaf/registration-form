@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Form</title>
+</head>
+<body>
+
+	<h1>Registration Form</h1>
+
+	<form action="form-submit.php" method="POST" autocomplete="off" novalidate>
+
+		<fieldset>
+			<legend>Basic Information</legend>
+		
+		<label for="fname" for="lname">Enter your name:</label>
+		<input type="text" id="fname" id="lname" name="fname" name="lname">
+
+		<br><br>
+
+		
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">Male</label>
+		<br>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Female</label>
+		<br><br>
+	</fieldset>
+
+             <fieldset>
+             <legend>Contact Information</legend>	
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email">
+
+		<label for="Phone">Phone:</label>
+		<input type="Phone" id="Phone" name="Phone">
+
+		</fieldset>
+
+		
+
+<fieldset>
+	<legend>Academic Information</legend>
+</fieldset>
+
+		
+	</form>
+
+</body>
+</html>
